@@ -1,0 +1,10 @@
+task :default => :test
+
+# Practica numero 4 de Lenguajes y Paradigmas de la Programacion
+# Dailos Sabina Rodriguez
+# Raul Perez Hernandez
+
+desc 'Unit Testing class Complejo'
+task :test do
+  sh 'ruby -I. -Ilib -Itest test/tc_complejo.rb'
+end
